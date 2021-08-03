@@ -1,0 +1,121 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* header start */
+    .menu ul li a{
+        font-size: 16px;
+    }
+    .t-btn:focus {
+        box-shadow: 0 0 0 0.1rem !important;
+    }
+    /* header end */
+    /* slider start */
+    
+    /* slider end */
+    /* feature start */
+    .feature-single{
+        text-align: center;
+        padding-left:7% ;
+        padding-right: 7%;
+    }
+    /* feature end */
+    /* footer start */
+    .footer-nav ul li a{
+        font-size: 13px;
+    }
+    .footer-sec .footer-nav{
+        margin-bottom: 15px;
+    }
+    .footer-sec .f-nav{
+        border-bottom: .5px solid #ddd;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    
+    /* footer end */
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* header start */
+    .menu ul li a{
+        font-size: 18px;
+    }
+    /* header end */
+    /* slider start */
+    /* slider end */
+    /* feature start */
+    .feature-single{
+        text-align: center;
+        padding-left:5% ;
+        padding-right: 5%;
+    }
+    /* feature end */
+    /* slider start */
+    .b-caption{
+        width: 60%;
+        top: 2%;
+    }
+    .banner .b-sub-title{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    /* slider end */
+    /* footer start */
+    .footer-sec .footer-nav{
+        margin-bottom: 15px;
+    }
+    .footer-sec .f-nav{
+        border-bottom: .5px solid #ddd;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    /* footer end */
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* header start */
+    .menu ul li a{
+        float: right;
+        margin-right: 10% !important;
+    }
+    /* header end */
+    /* slider start */
+    .b-caption{
+        width: 50%;
+        top: 0;
+    }
+    /* slider end */
+    
+    
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* slider start */
+    .b-caption{
+        width: 50%;
+    }
+    /* slider end */
+    /* footer start */
+    .footer-nav ul li a{
+        font-size: 15px;
+    }
+    /* footer end */
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* slider start */
+    .b-caption{
+        width: 40%;
+        /* top: 0; */
+    }
+    /* slider end */
+
+}
+
+/* XX-Large devices (larger desktops) */
+@media (max-width: 1400px) {
+
+}
